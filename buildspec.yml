@@ -12,5 +12,6 @@ phases:
       - npx cdk synth
 
 artifacts:
+  base-directory: cdk-app-8947486/cdk.out
   files:
-    - '**/*'
+    - CdkApp8947486Stack.template.json
